@@ -25,7 +25,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://code-evaluation-mentor.onrender.com/",
+    origin: "*",
   },
 });
 
